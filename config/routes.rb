@@ -1,4 +1,12 @@
 Lapizza::Application.routes.draw do
+  get 'about' => 'pages#about'
+  get 'food' => 'pages#food'
+  get 'drink' => 'pages#drink'
+  get 'contact' => 'pages#contact'
+  get 'location' => 'pages#location'
+  
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
