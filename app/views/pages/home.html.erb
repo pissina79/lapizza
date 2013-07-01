@@ -1,10 +1,52 @@
-<div class="center hero-unit">
-<h2>JUMBO TRON. IMAGES TK</h2>
-</div>
-<div class="center well well-large">
-		<div class="row-fluid">
-		  <div class="span4">restaurant info</div>
-		  <div class="span4"><%= link_to "Get Updates", '#' %></div>
-		  <div class="span4">PROMO TK</div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 3000
+    })
+  });
+</script>
+
+<div class="container">
+
+	<div id="this-carousel-id" class="carousel slide">
+			<div class="carousel-inner">
+					<div class="item active">
+						<img src="http://placehold.it/1200x480" alt="image 1" /> 
+							<div  class="carousel-caption">
+								<p>caption text here</p>
+							</div>
+					</div>
+					<div class="item">
+						<img src="http://placehold.it/1200x480" alt="image 2" /> 
+							<div  class="carousel-caption">
+								<p>caption text here</p>
+							</div>
+					</div>
+				 	<div class="item">
+						<img src="http://placehold.it/1200x480" alt="image 3" /> 
+							<div  class="carousel-caption">
+								<p>caption text here</p>
+							</div>
+					 </div>
+			</div> <!-- /.carousel-inner -->
+
+					<a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 	</div>
+
+			<div class="center well well-large">
+					<div class="row-fluid">
+					  <div class="span4">
+					  	<h4>PROMO SPOT 1</h4>
+					  	<p>more text</p>
+					  </div>
+					  <div class="span4">
+					  	<h4><%= link_to "LINKED PROMO SPOT 2", '#' %></h4>
+					  </div>
+					  <div class="span4">
+					  	<h4>PROMO SPOT 3</h4>
+					  	<p>more text</p>
+					  </div>
+			</div>
 </div>
