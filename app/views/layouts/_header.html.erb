@@ -10,12 +10,14 @@
 			</a>
 			 
 			<!-- Be sure to leave the brand out there if you want it shown -->
-			<%= link_to "SNAIL", root_path, class: "brand" %>
-			 
+			<!--<a class="brand" href="#">South End</a>		-->
+
+			 <%=link_to(image_tag("http://i1292.photobucket.com/albums/b561/parisliahyun/southendlogo2_zps61ce4e26.png",:size => "200x23", :alt=> "South End"),
+ {:controller=>"pages", :action=>"home"}, :title=>"Home", :class=>"brand") %>
+			
 			<!-- Everything you want hidden at 940px or less, place within here -->
 			<div class="nav-collapse collapse">
 				<ul class="nav">
-					<li><%= link_to "Home", root_path %></li>
 					<li><%= link_to "About", about_path %></li>
 					<li><%= link_to "Food", food_path %></li>
 					<li><%= link_to "Drink", drink_path %></li>
