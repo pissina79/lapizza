@@ -34,6 +34,15 @@ div.navbar .nav > li > a {
   font-size:15px !important;
 }
 
+.carousel-caption {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  text-align: justify;
+}
+
 .carousel-control {
   margin: 0 auto;
 }
@@ -43,6 +52,24 @@ div.navbar .nav > li > a {
   margin-left: auto;
   margin-right: auto;
   height: auto;
+}
+
+div.menu-logo {
+  margin-bottom: 60px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+
+div.heading .subhead > li {
+  text-decoration: none !important;
+  display: inline;
+  padding-right: 40px;
+  margin-left: -25px !important;
+}
+
+p {
+  margin: 0 auto;
+
 }
 
 .navbar .brand{
