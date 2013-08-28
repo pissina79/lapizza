@@ -1,15 +1,18 @@
 $baseFontFamily: Oxygen; 
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-$navbarBackgroundHighlight: #ffffff;
-$navbarBackground: #ffffff;
+$navbarBackgroundHighlight: #000000;
+$navbarBackground: #000000;
 
 @import 'bootstrap';
 body{
-    padding-top: 110px;
+    padding-top: 70px;
     background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/2672ff28-8dae-4ef4-b106-2a3be4342a57_zpsf04ccb39.jpg");;
     background-size: cover;
-    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    height: 100%;
 }
 
 @import 'bootstrap-responsive';
@@ -24,18 +27,24 @@ div.navbar div.navbar-inner ul.nav a:hover {
 }
 
 div.navbar .nav > li > a {
-  color: #000000 !important;
+  margin-top: -0.8px;
+  color: #ffffff !important;
   text-transform:uppercase; 
-  background: none repeat scroll 0% 0% #ffffff !important;
+  background: none repeat scroll 0% 0% #000000 !important;
   display: block !important;
   padding: 1.3rem 1rem;
   text-decoration: none !important;
   font-size:15px !important; 
-  border-top: 1px solid #D8D8D8 !important;
+  border-top: 0.5px solid #D8D8D8 !important;
 }
 
 div.navbar .brand {
   padding: 1.3rem 1rem !important;
+
+}
+
+.carousel-slide {
+  padding-top: 40px;
 
 }
 
@@ -53,7 +62,7 @@ div.navbar .brand {
 }
 
 .hero-unit {
-  margin-top: 75px;
+  margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
   max-width: 500px;
@@ -78,6 +87,12 @@ div.heading .subhead > li {
   display: inline;
   padding-right: 40px;
   margin-left: -25px !important;
+}
+
+div.map {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 h2 {
@@ -106,6 +121,8 @@ address {
 }
 
 .footer {
-  margin-top: 50px;
-  position: fixed;
-  color: $red;a {color: $red;}}
+  padding-left: 15px;
+  padding-top: 55px;
+  width: 100%;
+  color: #cc7711;
+}
