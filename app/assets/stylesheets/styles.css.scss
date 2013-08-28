@@ -7,6 +7,7 @@ $navbarBackground: #000000;
 @import 'bootstrap';
 body{
     padding-top: 60px;
+    padding-bottom: 60px;
     height: 100%;
     background-color: #ffffff;
 }
@@ -48,6 +49,11 @@ div.navbar .brand {
 
 }
 
+div.well {
+  background-color: #ffffff;
+
+}
+
 h1 {
   text-align: center;
   line-height: 100px;
@@ -58,22 +64,22 @@ h1 {
 }
 
 p {
+  text-align: center;
+  margin: 10px 10px 10px 60px;
   padding: 10px 10px 10px 10px;
   line-height: 28px;
-  color: #000000;
+  color: #ffffff;
   font-size: 20px;
-  background-color: #ffffff;
-  opacity: 0.7;
+  background-color: #000000;
   position: absolute;
+  opacity: 0.7;
   bottom: 0;
-  margin: 0 auto;
-  text-align: justify;
+  border-radius: 12px;
 }  
 
 div.first {
   background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/DSC_0233_zpsb6bbbf54.jpg");
   height: 500px;
-  width: 100%;
   background-position: center;
   background-attachment: fixed;
   background-repeat:no-repeat;
