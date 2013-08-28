@@ -6,14 +6,15 @@ $navbarBackground: #000000;
 
 @import 'bootstrap';
 body{
+    padding-top: 60px;
     height: 100%;
     background-color: #ffffff;
 }
 
 div.mural {
-    background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/2672ff28-8dae-4ef4-b106-2a3be4342a57_zpsf04ccb39.jpg");;
+    background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/2672ff28-8dae-4ef4-b106-2a3be4342a57_zpsf04ccb39.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: absolute;
     background-attachment: fixed;
     background-repeat:no-repeat;
     padding-bottom: 40px;
@@ -59,22 +60,23 @@ h1 {
 p {
   padding: 10px 10px 10px 10px;
   line-height: 28px;
-  color: rgba(255,255,255,1);
+  color: #000000;
   font-size: 20px;
-  background: black;
+  background-color: #ffffff;
   opacity: 0.7;
   position: absolute;
   bottom: 0;
-  margin: 0;
-  width: 100%;
-  overflow: hidden;
-  border-radius:12px;
+  margin: 0 auto;
   text-align: justify;
 }  
 
 div.first {
-  background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/39058e42-1c51-4690-a888-162217bccb0d_zpsbf9e364a.jpg");
+  background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/DSC_0233_zpsb6bbbf54.jpg");
   height: 500px;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
   background: cover;
   position: relative;
   margin: 40px 0 0 0;
@@ -84,6 +86,9 @@ div.first {
 div.second {
   background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/ce79cb90-6d80-42b8-9aa6-e266a52e4f3d_zps71f31b35.jpg");
   height: 500px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
   background: cover;
   position: relative;
   margin: 40px 0 0 0;
@@ -93,6 +98,9 @@ div.second {
 div.third {
   background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/6fcd870d-29fa-4f1e-8245-17b8f0211527_zps1780f3bd.jpg");
   height: 500px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
   background: cover;
   position: relative;
   margin: 40px 0 0 0;
