@@ -57,9 +57,9 @@ div.navbar .brand {
   text-align: justify;
 }
 
-.carousel-control {
+a.carousel-control {
   margin: 0 auto;
-}
+} 
 
 .hero-unit {
   margin-top: 60px;
@@ -93,6 +93,8 @@ div.map {
   text-align: center;
   margin: 0 auto;
   padding-top: 10px;
+  position: relative;
+  overflow: hidden;
 }
 
 h2 {
@@ -107,9 +109,10 @@ h3 {
 }
 
 address {
-  padding-left: 40px;
+  text-align: center;
   line-height: 25px;
   margin: 0 auto;
+  position: relative;
 }
 
 .links {
