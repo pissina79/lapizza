@@ -80,10 +80,10 @@ p {
 div.first {
   background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/DSC_0233_zpsb6bbbf54.jpg");
   height: 500px;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   background-repeat:no-repeat;
-  background: cover;
+  background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
@@ -104,7 +104,7 @@ div.second {
 div.third {
   background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/6fcd870d-29fa-4f1e-8245-17b8f0211527_zps1780f3bd.jpg");
   height: 500px;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
   background-repeat:no-repeat;
   background: cover;
