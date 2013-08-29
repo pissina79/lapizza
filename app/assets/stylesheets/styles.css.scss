@@ -33,7 +33,6 @@ div.navbar div.navbar-inner ul.nav a:hover {
 }
 
 div.navbar .nav > li > a {
-  margin-top: -0.8px;
   color: #ffffff !important;
   text-transform:uppercase; 
   background: none repeat scroll 0% 0% #000000 !important;
@@ -42,6 +41,8 @@ div.navbar .nav > li > a {
   text-decoration: none !important;
   font-size:15px !important; 
   border-top: 0.5px solid #D8D8D8 !important;
+  /* --- margin-top: -0.8px;
+  */
 }
 
 div.navbar .brand {
