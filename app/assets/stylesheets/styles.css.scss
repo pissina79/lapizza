@@ -65,7 +65,7 @@ h1 {
 
 p {
   text-align: center;
-  margin: 10px 10px 10px 60px;
+  margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
   line-height: 28px;
   color: #ffffff;
@@ -95,7 +95,7 @@ div.second {
   background-position: center;
   background-attachment: fixed;
   background-repeat:no-repeat;
-  background: cover;
+  background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
@@ -107,7 +107,7 @@ div.third {
   background-position: bottom;
   background-attachment: fixed;
   background-repeat:no-repeat;
-  background: cover;
+  background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
