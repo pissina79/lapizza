@@ -40,7 +40,7 @@ div.navbar .nav > li > a {
   text-transform: uppercase; 
   background: none repeat scroll 0% 0% #000000 !important;
   display: block !important;
-  padding: 1.3rem 1rem;
+  padding: 1.3rem 2rem;
   text-decoration: none !important;
   font-size:15px !important; 
   border-top: 1px solid #D8D8D8 !important;
@@ -215,3 +215,73 @@ address {
   width: 100%;
   color: #cc7711;
 }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+h1 {
+  text-align: center;
+  line-height: 50px;
+  display: block;
+  padding-top: 25px;
+  color: #ffffff;
+  font-size: 60px;
+}
+
+p {
+  text-align: left justify;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #000000;
+  position: absolute;
+  opacity: 0.7;
+  bottom: 0;
+  border-radius: 12px;
+}  
+
+div.first {
+  background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/DSC_0233_zpsb6bbbf54.jpg");
+  height: 350px;
+  background-position: 40%;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 20px 0 0 0;
+  border-radius: 12px;
+}
+
+div.second {
+  background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/ce79cb90-6d80-42b8-9aa6-e266a52e4f3d_zps71f31b35.jpg");
+  height: 300px;
+  background-position: 30%;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 20px 0 0 0;
+  border-radius: 12px;
+}
+
+div.third {
+  background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/6fcd870d-29fa-4f1e-8245-17b8f0211527_zps1780f3bd.jpg");
+  height: 300px;
+  background-position: 30%;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: 20px 0 0 0;
+  border-radius: 12px;
+}
+
+
+} 
+
+
+
+
+
