@@ -14,10 +14,10 @@ body{
 
 div.mural {
     background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/2672ff28-8dae-4ef4-b106-2a3be4342a57_zpsf04ccb39.jpg");
-    background-size: cover;
+    background-repeat:no-repeat;
+    background-size: cover; 
     background-position: absolute;
     background-attachment: fixed;
-    background-repeat:no-repeat;
     padding-bottom: 40px;
 }    
 
@@ -79,12 +79,12 @@ p {
 }  
 
 div.first {
-  background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/DSC_0233_zpsb6bbbf54.jpg");
+  background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/DSC_0233_zpsb6bbbf54.jpg"); 
+  background-repeat:no-repeat;
+  background-size: cover;
   height: 500px;
   background-position: top;
   background-attachment: fixed;
-  background-repeat:no-repeat;
-  background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
@@ -198,8 +198,11 @@ address {
 }
 
 .footer {
+  margin-top: 30px;
+  margin-bottom: -5em;
   padding-left: 15px;
-  padding-top: 55px;
+  bottom: 0px;
+  position: relative;
   width: 100%;
   color: #cc7711;
 }
