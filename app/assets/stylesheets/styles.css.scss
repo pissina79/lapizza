@@ -209,7 +209,7 @@ address {
 .footer {
   margin-top: 30px;
   margin-bottom: -5em;
-  padding-left: 10px;
+  padding-left: 5px;
   bottom: 0px;
   position: relative;
   width: 100%;
@@ -218,6 +218,15 @@ address {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
+ div.mural {
+    background: url("http://i1292.photobucket.com/albums/b561/parisliahyun/2672ff28-8dae-4ef4-b106-2a3be4342a57_zpsf04ccb39.jpg");
+    background-repeat:no-repeat;
+    background-size: cover; 
+    background-position: 70%;
+    position: relative;
+    padding-bottom: 40px;
+}  
 
 h1 {
   text-align: center;
