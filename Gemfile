@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 	gem 'jquery-rails'
 	gem 'rails_12factor'
 	ruby '1.9.3'
+	gem 'metamagic'
 
 group :production do
 	gem 'pg'
