@@ -4,6 +4,7 @@ Lapizza::Application.routes.draw do
   get 'drink' => 'pages#drink'
   get 'contact' => 'pages#contact'
   get 'location' => 'pages#location'
+  get 'reservations' => 'pages#reservations'
   
   root :to => 'pages#home'
 
